@@ -1,0 +1,24 @@
+.vscode
+**/.terraform/*
+
+.terraform
+.terraform.lock.hcl
+
+*.tfstate
+*.tfstate.*
+
+crash.log
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+.terraformrc
+terraform.rc
+
+*.pem
+.DS_Store
+
+# Ignore license files
+license*yaml
